@@ -2,15 +2,7 @@ body{background-color: black;
     cursor: url('curseur.png'), pointer;}
 
 
-#box1{position:absolute;
-    top:42%;
-    left: 38%;
-}
 
-#box2{position:absolute;
-    top:42%;
-    left:55%;
-}
 
 
 h3{color:yellow;
@@ -24,25 +16,21 @@ h1{color:yellow;
     font-size:20px;
    }
 
-   #box3{position:absolute;
-margin-top: 5%;
-margin-left: 54%;}
+
 
 p{color:yellow;
     text-decoration: none;
     font-family: Bahnschrift Light;
 font-size:20px;}
 
-#box4{position:absolute;
-    margin-top: 5%;
-    margin-left:37%;}
+
 
     a{font-size: 15px;
     color: yellow;
     cursor:crosshair;}
 
     table {margin: 0 auto;
-    border-spacing:0 ;}
+    border-spacing:10 ;}
 
     body{
         cursor: url('curseur.png'), pointer;}
