@@ -1,0 +1,57 @@
+body {
+    background-image: url("../../images/logonoir.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:0%;
+    margin:0%;
+    background-color:black;
+    }
+    
+a {
+    font-size: 20px;
+    font-family: Algerian;
+    color: white;
+    padding-left:225px;
+    text-decoration:none;
+    }
+
+a:hover {
+    color:yellow;
+    text-decoration:none;
+    }
+
+
+
+#box{
+    padding:0%;
+    margin:0%;
+    position: absolute;
+    top:0%;
+}
+
+#maybach{position: absolute;
+margin-top: 20%;
+margin-left: 10%;}
+
+#smart{position: absolute;
+    margin-top: 20%;
+    margin-left: 100%;}
+
+    #mercedes{position: absolute;
+        margin-top: 40%;
+        margin-left: 51%;}
+
+        #contacter{position: absolute;
+        margin-left: 96%;
+    margin-top:-2%;}
+
+    body{
+        cursor: url('../../curseur.png'), pointer;}
+
+        a{cursor: url('../../curseur.png'), pointer;}
+    
+        h1::selection{background: rgb(253, 81, 81);}
+    a::selection{background: rgb(253, 81, 81);}
+    h3::selection{background: rgb(253, 81, 81);}
+    img::selection{background: rgb(253, 81, 81);}
+    p::selection{background: rgb(253, 81, 81);}

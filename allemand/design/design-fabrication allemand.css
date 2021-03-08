@@ -1,0 +1,60 @@
+        h2.espace{
+            padding-top:250px;
+            font-size:20px;
+            font-family:Bahnschrift Light;
+        color: white;}
+
+            h1{color:yellow;
+            padding-top:100px;}
+
+            a {
+                font-size: 20px;
+                font-family:Algerian;
+                color: white;
+                padding-left:15%;
+                text-decoration:none;
+                }
+                a:hover {
+                    color:yellow;
+                    text-decoration:none;
+                    }
+        body{background-color:black;}
+
+        h2{color:white;
+            font-family:Bahnschrift Light;
+        font-size:20px}
+
+         p{font-size: 18px;
+         color:black;
+         font-family:Bahnschrift Light;
+        color: yellow;}
+
+         
+
+#plusphotos{position:absolute;
+    top:100px;
+    color:yellow;}
+
+
+  
+
+        body{
+            cursor: url('../../curseur.png'), pointer;}
+    
+            a{cursor: url('../../curseur.png'), pointer;}
+              
+        
+
+            #lienmercedes{padding-left:0%;
+                text-decoration: underline;}
+                #liensmart{padding-left:0%;
+                    text-decoration: underline;}
+                #lienmaybach{padding-left:0%;
+                    text-decoration: underline;}
+
+                    h1::selection{background: rgb(253, 81, 81);}
+    a::selection{background: rgb(253, 81, 81);}
+    h3::selection{background: rgb(253, 81, 81);}
+    img::selection{background: rgb(253, 81, 81);}
+    p::selection{background: rgb(253, 81, 81);}
+

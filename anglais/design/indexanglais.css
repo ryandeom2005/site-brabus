@@ -1,0 +1,63 @@
+body {
+    background-image: url("../../images/logonoir.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:0px;
+    margin:0px;
+    background-color:black;
+    cursor: url('../../curseur.png'), pointer;
+    }
+    
+a {
+    font-size: 20px;
+    font-family: Algerian;
+    color: white;
+    padding-left:220px;
+    text-decoration:none;
+    }
+
+a:hover {
+    color:yellow;
+    text-decoration:none;
+    }
+
+
+
+#box{
+    padding:0px;
+    margin:0px;
+    position: absolute;
+    top:0px;
+    cursor: url('../../curseur.png'), pointer;
+}
+
+
+#maybach{position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    cursor: url('../../curseur.png'), pointer;}
+    
+    #smart{position: absolute;
+        margin-top: 20%;
+        margin-left: 100%;
+        cursor: url('../../curseur.png'), pointer;}
+    
+        #mercedes{position: absolute;
+            margin-top: 40%;
+            margin-left: 50%;
+            cursor: url('../../curseur.png'), pointer;}
+    
+            #contacter{position: absolute;
+            margin-left: 95%;
+        margin-top:-2%
+        }
+
+        
+    
+            a{cursor: url('../../curseur.png'), pointer;}
+
+            h1::selection{background: rgb(253, 81, 81);}
+    a::selection{background: rgb(253, 81, 81);}
+    h3::selection{background: rgb(253, 81, 81);}
+    img::selection{background: rgb(253, 81, 81);}
+    p::selection{background: rgb(253, 81, 81);}

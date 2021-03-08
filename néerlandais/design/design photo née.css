@@ -1,0 +1,25 @@
+a {
+    font-size: 20px;
+    font-family: Algerian;
+    color: white;
+    padding-left:225px;
+    text-decoration:none;
+    cursor: url('../../curseur.png'), pointer;
+    }
+    a:hover {
+        color:yellow;
+        text-decoration:none;
+        }
+        body{background-color:black;
+            cursor: url('../../curseur.png'), pointer;}
+
+        p{color:yellow;
+            font-size:20px;}
+
+            h1::selection{background: rgb(253, 81, 81);}
+    a::selection{background: rgb(253, 81, 81);}
+    h3::selection{background: rgb(253, 81, 81);}
+    img::selection{background: rgb(253, 81, 81);}
+    p::selection{background: rgb(253, 81, 81);}
+
+          

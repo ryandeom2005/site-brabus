@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ontvangst</title>
+    <link href="design/design index née.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/jpg" href="../images/favicon.png" />
+    <script>function lancer_son() {
+        var audio = document.getElementById('bloc_son');
+        audio.volume = 1; // on met le son au maximum
+        audio.play(); // on lance le son
+    }</script> 
+</head>
+<body>
+        <br/><br/>
+    <img src="../images/son.png" onclick="lancer_son();" />
+    <div id="box">
+        <a href="index.html">ontvangst</a>  
+        <a href="fabrication née.html">productie</a>
+        <a href="photo née.html">foto</a>
+        <a href="historique née.html">historisch</a> 
+        <div id="contacter"> <a href="mailto:ryankyannind@gmail.com"><img src="../images/contacter.png"></a></div> 
+
+
+        <div id="maybach"> <img src="../images/logo maybach.png"></div>
+        <div id="smart"> <img src="../images/logo smart.png"></div>
+        <div id="mercedes"> <img src="../images/logo mercedes.png"></div>
+    </div>
+    <audio id="bloc_son"  preload="auto">
+        <source src="../son/the-sound-of-brabus_XH1RUtv4.ogg" type="audio/ogg" />
+    </audio>
+</body>
+</html>
